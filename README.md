@@ -19,6 +19,8 @@ Optional: change where the files will be moved to in line 53
 
 Open terminal and change directory to the one containing the script
 
+If necessary: pip install click
+
 python move_and_rename.py --basepath /path/to/directory --phrase "phrase"
 
 # zipping.py
@@ -27,6 +29,8 @@ This script will archive folders containing a certain phrase and rename them to 
 how to use:
 
 Open terminal and change directory to the one containing the script
+
+If necessary: pip install click
 
 python zipping.py --basepath /path/to/directory --phrase "phrase" --limit optional, maximum number of folders that should be archived --archive_name optional, new name of archive
 
