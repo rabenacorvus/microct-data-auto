@@ -9,11 +9,11 @@ The script will
 - move specified .XML files in the move_recon_xml function two directories up
 - rename specified .XML files to include the name of the folder they are stored in.
 
-how to use:
+How to use:
 
-Insert file names that should be move in line 54 and following
+Insert file names that should be moved in line 54 and following
 
-Insert all file names that should be renamed to contain the name of the folder they  are located in in line 38 and following
+Insert all file names that should be renamed to contain the name of the folder they are located in, in line 38 and following
 
 Optional: change where the files will be moved to in line 53
 
@@ -24,9 +24,9 @@ If necessary: pip install click
 python move_and_rename.py --basepath /path/to/directory --phrase "phrase"
 
 # zipping.py
-This script will archive folders containing a certain phrase and rename them to contain the name of the folder they are located in.
+This script will archive folders containing a certain phrase ("phrase") within a specified directory ("basepath") and rename them to contain the name of the folder they are located in.
 
-how to use:
+How to use:
 
 Open terminal and change directory to the one containing the script
 
