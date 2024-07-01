@@ -6,10 +6,16 @@ This script is based to work on the directory structure and metadata files creat
 
 The script will
 - create a list of paths for subfolders withing a specified directory ("basepath") that contain a certain phrase ("phrase")
-- move specified files in the move_recon_xml function two directories up
-- rename specified files to include the name of the folder they are stored in.
+- move specified .XML files in the move_recon_xml function two directories up
+- rename specified .XML files to include the name of the folder they are stored in.
 
 how to use:
+
+Insert file names that should be move in line 54 and following
+
+Insert all file names that should be renamed to contain the name of the folder they  are located in in line 38 and following
+
+Optional: change where the files will be moved to in line 53
 
 Open terminal and change directory to the one containing the script
 
